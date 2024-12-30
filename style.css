@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+  height: 80px;
+  background: #6c6b65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 1.5rem;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.The-All-Screen {
+  background: #6c6b65;
+}
+
+.To-Start-New-Project {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin: 0rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.To-Build-apk {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.BTN_With_Animation_Class {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.Firebase-Re-Auth {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.VScode-Setting {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.LengthOfDocuments {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.CountryPhonePicker {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.GetDataFromFirebase {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.GetDataFromFirebaseforOneDocAndOneField {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.GetDataOfDocAsMap {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.cirularProgressInAppScreen {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.GradiantText {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.ToMakeWidgetsRunFirstBeforeAnimation {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.Media_kitPackage {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MakeOneDeviceSignIn {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.ReadDataFromJson {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MyFlutterButton {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MyTextField {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MyDrawer {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MyDrawerTile {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MyTapBar {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.LoginOrRegisterPage {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.LoginPage {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.RegisterPage {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.settingsPage {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.DarkMode {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.LightMode {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.ThemeProvider {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.MainWithThemeProvider {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.UseInternetInRealDevice {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.CopyToClipBoardFlutter {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.ToHideTheKeyboardWhenTapOnScreen {
+  border-style: inset;
+  border-color: #000;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  align-items: center;
+  margin: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+button {
+  margin-bottom: 5%;
+  padding: 1rem 1.5rem;
+  border: none;
+  color: #000;
+  background: #fdcc04;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:hover {
+  background: #000;
+  color: #fdcc04;
+}
